@@ -1,5 +1,3 @@
-# test_voibot_segmented.py
-
 from voibot.chatbot import VoiAssistant
 
 # Set up the parameters for the assistant
@@ -54,17 +52,13 @@ assistant = VoiAssistant(
     dont_know_response=dont_know_response
 )
 
-# Start the loading animation
 loading = True
 
-# Initialize the assistant (this will load all PDFs and prepare the indices)
 assistant.initialize_assistant()
 
-# Stop the loading animation
 loading = False
 print("\rInitialization complete!       ")
 
-# Interactive mode
 print("\nEntering interactive mode. Type 'exit' to end the conversation.")
 while True:
     user_input = input("\nYou: ")
