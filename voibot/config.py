@@ -1,5 +1,3 @@
-# Default configuration for the VoiAssistant
-
 # Default OpenAI API model to use
 DEFAULT_OPENAI_MODEL = "gpt-4o-mini"
 
